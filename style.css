@@ -1,0 +1,316 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+}
+
+p{
+padding: 15px 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  font-family: arial;
+  position: relative;
+}
+
+header, .sub-header {
+  width: 100%;
+  height: 50px;
+
+}
+
+/* .header-right div:last-child{
+  background-color: orange;
+  display:inline-block;
+  border-radius: 3px;
+  color: white;
+  margin: auto;
+} */
+
+/* header > *{
+  line-height: 50px;
+} */
+
+nav {
+  background-color: lightgrey;
+  height: 50px;
+  border-bottom: 2px darkgrey solid;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 99;
+}
+
+.button3{
+  display: inline;
+  width: auto;
+  height: auto;
+  margin: 0 20px;
+  color: darkblue;
+}
+
+
+
+.button2{
+  background-color: orange;
+  padding: 3px 30px;
+  display: inline;
+  width: auto;
+  height: auto;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 0 20px;
+  color: white;
+}
+
+.button1{
+  padding: 3px 30px;
+  /* display: inline; */
+  width: auto;
+  height: auto;
+  border-left: 1px solid darkblue;
+  /* margin: 0 20px; */
+  color: darkgrey;
+}
+
+.header-left .button1:first-child{
+  border-left: 0px;
+}
+
+.header-left, .header-right {
+  height:50px;
+  width:50%;
+line-height: 50px
+}
+.header-left {
+  float: left;
+  text-align: left;
+}
+.header-right {
+  float: right;
+  text-align: right;
+}
+
+.sub-header {
+  background-color: white;
+  padding-top: 50px;
+  height: 120px;
+  border-bottom: 3px solid #002156;
+}
+.sub-header-left, .sub-header-right {
+  height: 70px;
+  display: inline;
+  line-height: 70px;
+
+}
+.sub-header-left {
+  width: 40%;
+  float: left;
+  text-align: left;
+}
+.sub-header-right {
+  width: 60%;
+  float: right;
+  text-align: right;
+}
+
+.sub-header2 {
+  background-color: #5b76a3;
+  color: white;
+  height: 100px;
+  line-height: 100px
+}
+
+.wrapper-header2{
+  width: 600px;
+  margin: auto;
+}
+
+.wrapper-subheader{
+height: 150px;
+}
+
+.logo{
+  background-image: url(https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg);
+  height: 47px;
+  width: 170px;
+  background-size:cover;
+  margin:10px;
+}
+
+.wrapper-subheader:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.white-button{
+  padding: 10px;
+  background-color: white;
+  display:inline;
+  border-radius: 3px;
+  color: black;
+  margin-left: 40px;
+
+}
+
+.orange-button{
+  padding: 15px;
+  background-color: orange;
+  display:inline-block;
+  border-radius: 3px;
+  color: white;
+}
+
+a{
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+section {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
+  border-top: 3px solid #002156;
+}
+.text-container {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  color:white;
+  /*translate(X, Y)
+  translateY(quanto?) => TOP & BOTTOM
+  translateX(quanto?) => LEFT & RIGHT*/
+}
+
+main{
+  width: 100%;
+  background-color: grey;
+  padding: 30px 0px;
+  border-top: 3px solid #002156;
+}
+
+main:after{
+  clear: left;
+  display: table;
+  content:'';
+}
+
+.immagine{
+  width: 150px;
+  height: 100px;
+  margin: auto;
+  background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png);
+  background-size: contain;
+}
+
+.immagine1{
+  float: left;
+  width: 150px;
+  height: 100px;
+  background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png);
+  background-size: contain;
+}
+
+.largo{
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  border: 1px black solid;
+  padding: 30px;
+  margin-top:1.5%;
+  margin-bottom:1.5%;
+  position: relative;
+}
+
+.largo:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.colonne{
+  position: relative;
+width: 100%;
+margin-top:1.5%;
+}
+
+.colonne:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.singolo{
+  float: left;
+  background-color: white;
+  height: auto;
+  width: 32.3332%;
+  border: 1px black solid;
+  padding: 30px;
+}
+
+.listina li{
+	list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+  margin:0 0 10px 0;
+  line-height: 2em;
+
+}
+
+.listina1 li{
+	list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+  margin:0 0 10px 0;
+  line-height: 2em;
+  display: inline;
+}
+
+/* <i class="fas fa-caret-down"></i> */
+.listina li:before {
+  font-family: 'FontAwesome';
+	content: "\f058";
+  margin:0 0 10px 0;
+
+}
+
+h3, h1{
+  text-align: center;
+}
+
+.centrale{
+  margin: 0px 1.5%;
+}
+
+.contenuto {
+  float: left;
+  width: 70%;
+  height: auto;
+}
+
+.testo-centrato {
+  text-align: center;
+}
+
+.margine-centrato{
+width: 60%;
+margin: auto;
+}
+
+.singolo:hover{
+  box-shadow: 5px 5px 2.5px black;
+}
+
+.largo:hover{
+  box-shadow: 5px 5px 2.5px black;
+  transform: scale(101%,101%);
+}
